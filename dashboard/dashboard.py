@@ -45,7 +45,7 @@ def create_rfm_df(df):
 
 # import data
 #all_df = pd.read_csv(r"C:\Users\Indri Cahyani\Documents\dashboard\all_data.csv")
-ll_df = pd.read_csv("all_data.csv")
+ll_df = pd.read_csv("./dashboard/all_data.csv")
 # datetime column for filter
 all_df.sort_values(by="order_purchase_timestamp", ascending=True, inplace=True)
 datetime_columns = [
@@ -63,7 +63,7 @@ max_date = all_df["order_purchase_timestamp"].max()
 
 with st.sidebar:
     # menambahkan logo
-    st.image("logo.png")
+    st.image("./dashboard/logo.png")
 
     # mengambil start date and end date dari date_input
     start_date, end_date = st.date_input(
