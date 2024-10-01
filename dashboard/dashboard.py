@@ -45,7 +45,7 @@ def create_rfm_df(df):
 
 # import data
 #all_df = pd.read_csv(r"C:\Users\Indri Cahyani\Documents\dashboard\all_data.csv")
-ll_df = pd.read_csv("./dashboard/all_data.csv")
+all_df = pd.read_csv("./dashboard/all_data.csv")
 # datetime column for filter
 all_df.sort_values(by="order_purchase_timestamp", ascending=True, inplace=True)
 datetime_columns = [
