@@ -1,2 +1,2 @@
 Streamlit Dashboard Link
-https://9ku6oznlatzvtfwqmltxwe.streamlit.app/
+https://indricahyani-da-ecommerce.streamlit.app/
